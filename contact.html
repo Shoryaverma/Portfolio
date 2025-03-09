@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Shorya Verma</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo"><span>Shorya Verma</span></div>
+            <div class="links">
+                <div class="link"><a href="index.html">Home</a></div>
+                <div class="link"><a href="about.html">About</a></div>
+                <div class="link"><a href="skills.html">Skills</a></div>
+                <div class="link"><a href="services.html">Services</a></div>
+                <div class="link"><a href="blogs.html">Blogs</a></div>
+                <div class="link contact-btn"><a href="contact.html">Contact Me</a></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-container" data-aos="fade-up" data-aos-duration="1000">
+            <h1>Contact Me</h1>
+            <p>If you have any questions or want to work together, feel free to reach out!</p>
+
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form" data-aos="fade-right" data-aos-duration="1200">
+                    <form>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                        
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Enter your email" required>
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Enter subject" required>
+
+                        <!-- <label for="message">Message</label>
+                        <textarea id="message" placeholder="Write your message..." required></textarea> -->
+
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info" data-aos="fade-left" data-aos-duration="1200">
+                    <h2>Get in Touch</h2>
+                    <p><i class="fa-solid fa-envelope"></i> Email: <a href="mailto:shoryavermaofficial@gmail.com">shoryavermaofficial@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> Phone: <a href="tel:+917877345966">+91 7877345966</a></p>
+                    <p><i class="fa-solid fa-location-dot"></i> Location: Jaipur, India</p>
+
+                    <h2>Follow Me</h2>
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- AOS Animation -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+</body>
+</html>
